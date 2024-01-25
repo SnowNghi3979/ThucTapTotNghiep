@@ -1,0 +1,58 @@
+/* Additional CSS for the .footer */
+.footer {
+    padding: 20px; /* Add padding to the footer for better spacing */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.footer section {
+    display: flex;
+    justify-content: space-between; /* Spread the sections evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.footer .f-listmenu {
+    list-style: none;
+}
+
+.footer .f-listmenu li {
+    margin-bottom: 10px;
+}
+
+.footer .f-listmenu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.footer .f-listmenu a:hover {
+    color: #e83a45; /* Change color on hover */
+}
+
+.footer .f-listtel {
+    text-align: center;
+}
+
+.footer .f-listtel__title {
+    margin-bottom: 10px;
+}
+
+.footer .f-listtel__content {
+    margin-bottom: 5px;
+}
+
+/* Style the copyright section */
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+.footer .copyright a {
+    color: #e83a45;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.footer .copyright a:hover {
+    text-decoration: underline;
+}
